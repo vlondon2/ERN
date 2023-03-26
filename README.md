@@ -1,26 +1,36 @@
 # Emergency Response Network
 
+## Prerequisites
+
+* Python 3.7 or higher.
+* Twilio 
+* OpenAI API
+* git -v2.13 or greater
+* NodeJS
+* npm - v6 or greater
+* Flask
+
 ## Getting Started
 
-To get started, you need to access the web app online, then create an account or sign into an existing account.
+To get started, a user would need to access the web app online, then submit your name, location, phone number, the date, and a description of the problem.
 
-Once you have an account, you can use the app to report an emergency, either by messaging/calling nearby volunteers or directly reporting the emergency in the app. If the emergency is dire or major, you will be given the option to call 911 or your emergency contact, which can be stored on the app.
+Once they submit their information, the description of their issue is sent to volunteers in your community using Twilio and 
 
 The app uses Twilio to send messages to users and volunteers, meaning that help can be contacted at the push of a button.
 
+## Description
+
+When a user inputs their data, the data is taken from the website using Flask. The description of the user's issue is passed to categorize.py which puts the description into one of three categories using OpenAI's API. The user's data with the categorization is then stored on MongoDB. The user's problem is then sent to volunteers who can help them, and a response is sent to the user's phone with suggested resources they can access based on the category of their problem.
+
 ## Features
 
-### Messaging/Calling Volunteers
+### Messaging Volunteers
 
 The Emergency Response Network enables users to connect with nearby volunteers in the community to find one who can assist.
 
 ### Directly Reporting Emergencies
 
 Users can report emergencies directly in the app, which will alert nearby volunteers to help them.
-
-### Storage for Emergency Contacts
-
-Users can store their emergency contacts in the app, which can be accessed in case of an emergency.
 
 ### 911 and Emergency Contact Integration
 
@@ -29,10 +39,6 @@ In case of dire or major emergencies, users can call 911 or their emergency cont
 ### Real-time Communication
 
 The app provides real-time communication between users and volunteers.
-
-### Push Notifications
-
-Users will receive push notifications when there is an emergency nearby or when a volunteer is on their way to help.
 
 ### Accessibility
 
