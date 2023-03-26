@@ -27,5 +27,4 @@ def categorize_text(text):
         if "Natural Disaster" in cat or "Medical" in cat or "Safety" in cat:
             break
 
-    return cat
-        
+    return cat        
