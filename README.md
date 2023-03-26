@@ -12,6 +12,28 @@ The app uses Twilio to send messages to users and volunteers, meaning that help 
 
 ### Messaging/Calling Volunteers
 
-The Emergency Response Network enables
+The Emergency Response Network enables users to connect with nearby volunteers in the community to find one who can assist.
 
+### Directly Reporting Emergencies
 
+Users can report emergencies directly in the app, which will alert nearby volunteers to help them.
+
+### Storage for Emergency Contacts
+
+Users can store their emergency contacts in the app, which can be accessed in case of an emergency.
+
+### 911 and Emergency Contact Integration
+
+In case of dire or major emergencies, users can call 911 or their emergency contact for help.
+
+### Real-time Communication
+
+The app provides real-time communication between users and volunteers.
+
+### Push Notifications
+
+Users will receive push notifications when there is an emergency nearby or when a volunteer is on their way to help.
+
+### Accessibility
+
+The app is designed to be accessible for all users, including those with disabilities.
