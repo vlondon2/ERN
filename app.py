@@ -1,9 +1,13 @@
 from flask import Flask, request, Response
 from twilio.twiml.messaging_response import MessagingResponse
+from flask_cors import CORS
+
+
 
 messages = []
 
 app = Flask(__name__)
+CORS(app) # Comment out
 
 def respond(message):
     response = MessagingResponse()
