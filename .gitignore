@@ -1,4 +1,6 @@
 .env
 pyvenv.cfg
 Untitled-1.mongodb
-
+lib
+bin
+include
