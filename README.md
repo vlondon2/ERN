@@ -1,4 +1,4 @@
-# ERN
+# Emergency Response Network
 
 ## Getting Started
 
