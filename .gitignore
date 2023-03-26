@@ -1,7 +1,10 @@
 .env
 pyvenv.cfg
 Untitled-1.mongodb
-test1
+lib/
+bin/
+include/
+Scripts/
 lib/
 include/
 bin/
